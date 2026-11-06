@@ -1,0 +1,104 @@
+{
+  "comments-3638.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3638/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:10.281573+00:00",
+    "sha256": "2a0581de3b18d42e0e52514975e2dbe0dab8ad337c34ac11365ec1344d36058b",
+    "bytes": 1753
+  },
+  "comments-3644.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3644/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:09.833300+00:00",
+    "sha256": "aee05d54ce0e0618eaa092db2e19564965caed41c86d30c5d1ef8cd7a857cf28",
+    "bytes": 21979
+  },
+  "comments-3663.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3663/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:09.386441+00:00",
+    "sha256": "d0295b31c801f337e51b0aebb6f0310f60f2f100da80269cc41625dde9d87f5c",
+    "bytes": 1670
+  },
+  "comments-3686.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3686/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:08.944120+00:00",
+    "sha256": "5fe53d9bac062395a81a486ce30639d28f31d1ffdbc835f740897c49edae2806",
+    "bytes": 7841
+  },
+  "comments-3704.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3704/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:08.097721+00:00",
+    "sha256": "8513caa08f5bec9c5835d46426d34e480cd1f5238d1ad130a73d1a75c117e42f",
+    "bytes": 2168
+  },
+  "comments-3708.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3708/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:07.606480+00:00",
+    "sha256": "4dfbc760ae9d21d0659fcb4d17acfab1fbb5034944d53a787f1f2b0272005d2d",
+    "bytes": 7218
+  },
+  "comments-3712.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3712/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:06.910458+00:00",
+    "sha256": "23414691dffb4079e493d7a376972aadbff685b74fa29b0b6ce5a4e756cdc45e",
+    "bytes": 6505
+  },
+  "comments-3713.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3713/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:06.174131+00:00",
+    "sha256": "32a5de7056a4f4c157743210fa383682b368d7f8a55dfe9d707881f8e3fac9d4",
+    "bytes": 2723
+  },
+  "comments-3728.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3728/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:05.671020+00:00",
+    "sha256": "5f1df75e4735f2bc71be3995db7856b235652472050680140648cb6975d39ec0",
+    "bytes": 2749
+  },
+  "comments-3734.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3734/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:04.220221+00:00",
+    "sha256": "7698c8def2478c0537b4fab3ae618c95a164379c13a0c2a124275bfa7875ef1a",
+    "bytes": 6587
+  },
+  "comments-3781.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3781/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:03.531781+00:00",
+    "sha256": "bbe7044bfd0dc353dfc63ac81369188b7bca342a758be5c6eb7b21ab8d8696df",
+    "bytes": 2296
+  },
+  "comments-3782.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues/3782/comments?per_page=100",
+    "retrieved_at_utc": "2026-11-06T08:41:03.049178+00:00",
+    "sha256": "1cd6a5829ed08c3866a4b8eb595ca6e16851323a1a6d035d07780aa250b9a78d",
+    "bytes": 28877
+  },
+  "httpx-0.27.2.tar.gz.provenance.json": {
+    "url": "https://codeload.github.com/encode/httpx/tar.gz/refs/tags/0.27.2",
+    "retrieved_at_utc": "2026-11-06T08:40:46.231977+00:00",
+    "sha256": "deeb35d578415665a576fd16b6c986bbf4146dcbec0385e56a299c7cf05d7f5e",
+    "bytes": 2185609
+  },
+  "httpx-0.28.1.tar.gz.provenance.json": {
+    "url": "https://codeload.github.com/encode/httpx/tar.gz/refs/tags/0.28.1",
+    "retrieved_at_utc": "2026-11-06T08:40:57.055829+00:00",
+    "sha256": "61fe412dd34b6d95197feb9dbfb6a6e2c749197b67287b2f75925ec257bb41ae",
+    "bytes": 4118011
+  },
+  "issues-page-1.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues?state=all&per_page=100&sort=updated&direction=desc&page=1",
+    "retrieved_at_utc": "2026-11-06T08:40:58.569432+00:00",
+    "sha256": "436e39cfd66fbdc3e0659d645f2e728996894456fc53f1132fe822dd0d265662",
+    "bytes": 599529
+  },
+  "issues-page-2.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues?state=all&per_page=100&sort=updated&direction=desc&page=2",
+    "retrieved_at_utc": "2026-11-06T08:40:59.962128+00:00",
+    "sha256": "71ea8316c14520e4a6bb737a18e798289d33296a91524f9a0341887ed769cf4b",
+    "bytes": 728175
+  },
+  "issues-page-3.json.provenance.json": {
+    "url": "https://api.github.com/repos/encode/httpx/issues?state=all&per_page=100&sort=updated&direction=desc&page=3",
+    "retrieved_at_utc": "2026-11-06T08:41:02.467384+00:00",
+    "sha256": "b3ad82641d1c3f78a21c9ff8d9f0d381022bec3ed5a830002f944f1227e3b1f7",
+    "bytes": 719687
+  }
+}

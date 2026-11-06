@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-11-06T09:30:18.395844+00:00",
+  "python": "3.12.7",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "source_code_sha256": {
+    "src/casebook/__init__.py": "3ae3d102b3710bb7d74a317c3332b885ae71d0c1301bb8f8f3745659ae54a3e6",
+    "src/casebook/api.py": "b88eace5323bb6a1e0e8e520bdfbdd285c72fb429f1cb7ccbc64ebe91ebf0874",
+    "src/casebook/app.py": "72d6ab5e460305c566c4f7576e72a35dc2b293de7244658d544b1374cb62a5fc",
+    "src/casebook/cli.py": "e07f4c68269f705fcb3d0d6c974ae3aea24de5338b7805d16c96ed19bdb1f8e8",
+    "src/casebook/data.py": "2d2cb059d1f8ffb7e12bef2c4069348ae3f623114256fa8450070fde441257a7",
+    "src/casebook/evaluation.py": "d534ee0855cd476b6dbef5a5ea27e60828b2c122a48196562afe5d2f2a101246",
+    "src/casebook/io.py": "663f4f0fd647f96163b1e8446ffc4fc9f39a69e543e110eff27537e66106acd6",
+    "src/casebook/pipeline.py": "19665cf8c408f1bac8c1e5ab0433e916ccefc2408f57c1f236ca9cd33acb6be8",
+    "src/casebook/retrieval.py": "2c8b94821da9fc2bcc40bd4545b931699b19e98ede715191eb2d7d8e2f918840"
+  }
+}

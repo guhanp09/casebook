@@ -1,0 +1,630 @@
+{
+  "provenance": "Developer-authored in-domain questions and expected source pages; theme overlap across splits; not independent human validation",
+  "fixed_support_gate": "keyword cosine >= 0.045 and >= 2 non-generic overlapping terms; not tuned using test results",
+  "rows": [
+    {
+      "id": "topic-00-0",
+      "question": "How can I configure a custom SSL certificate authority bundle?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/ssl.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-00-1",
+      "question": "TLS certificate verification fails with my company's CA certificate.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/ssl.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-00-2",
+      "question": "Where do I supply a custom SSLContext for certificate verification?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/ssl.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-01-0",
+      "question": "How does HTTPX send a client certificate for mutual TLS?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/ssl.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-01-1",
+      "question": "The server requires a client certificate and private key for SSL authentication.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/ssl.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-01-2",
+      "question": "Can I configure load_cert_chain for HTTPS client certificates?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/ssl.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-02-0",
+      "question": "How do I route HTTP traffic through a proxy?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/proxies.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-02-1",
+      "question": "Configure an HTTP proxy URL for outbound requests.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/proxies.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-02-2",
+      "question": "How do proxy mounts route traffic by scheme?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/proxies.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-03-0",
+      "question": "How do I configure SOCKS proxy support?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/proxies.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-03-1",
+      "question": "My client needs a SOCKS5 proxy dependency and URL.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/proxies.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-03-2",
+      "question": "Which optional dependency supports socks proxies?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/proxies.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-04-0",
+      "question": "What is the difference between connect and read timeouts?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/timeouts.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-04-1",
+      "question": "Configure timeout settings for connecting and reading the response.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/timeouts.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-04-2",
+      "question": "How can I assign separate read, write and pool timeouts?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/timeouts.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-05-0",
+      "question": "How do I disable request timeouts?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/timeouts.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-05-1",
+      "question": "Set timeout to None for long running operations.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/timeouts.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-05-2",
+      "question": "Can a client default timeout be disabled?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/timeouts.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-06-0",
+      "question": "How can I limit the number of connections in the pool?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/resource-limits.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-06-1",
+      "question": "Configure max_connections and max_keepalive_connections.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/resource-limits.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-06-2",
+      "question": "Where do I set keepalive_expiry for pooled connections?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/resource-limits.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-07-0",
+      "question": "Why should I reuse a Client for connection pooling?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/clients.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-07-1",
+      "question": "Repeated top-level requests do not reuse pooled connections.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/clients.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-07-2",
+      "question": "How does the Client context manager close connection pools?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/clients.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-08-0",
+      "question": "How can I implement a custom authentication flow?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/authentication.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-08-1",
+      "question": "I need to subclass Auth and define auth_flow.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/authentication.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-08-2",
+      "question": "Can a custom authentication flow yield several requests?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/authentication.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-09-0",
+      "question": "How do I configure BasicAuth or DigestAuth?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/authentication.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-09-1",
+      "question": "Send username and password with HTTP Basic authentication.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/authentication.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-09-2",
+      "question": "Where are digest authentication credentials configured?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/authentication.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-10-0",
+      "question": "How do event hooks inspect requests and responses?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/event-hooks.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-10-1",
+      "question": "Configure response hooks for logging and raise_for_status.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/event-hooks.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-10-2",
+      "question": "Can I attach an asynchronous response event hook?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/event-hooks.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-11-0",
+      "question": "How can I test an ASGI application without a network server?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/transports.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-11-1",
+      "question": "Use ASGITransport to make requests directly to the application.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/transports.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-11-2",
+      "question": "How do I connect AsyncClient to an ASGI app for tests?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/transports.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-12-0",
+      "question": "How do I provide a mock transport for testing?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/transports.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-12-1",
+      "question": "MockTransport should return a predefined response from a handler.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/transports.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-12-2",
+      "question": "Can a custom transport intercept requests without sockets?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/transports.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-13-0",
+      "question": "How is the response text encoding selected?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/text-encodings.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-13-1",
+      "question": "Configure default_encoding when the server omits charset.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/text-encodings.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-13-2",
+      "question": "Can I use automatic character encoding detection for response text?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/text-encodings.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-14-0",
+      "question": "How do I reuse an AsyncClient in asynchronous code?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/async.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-14-1",
+      "question": "I need async with and await for AsyncClient requests.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/async.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-14-2",
+      "question": "What is the supported way to stream responses asynchronously?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/async.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-15-0",
+      "question": "How do I prevent environment variables from changing proxy configuration?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/environment_variables.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-15-1",
+      "question": "Does trust_env=False disable HTTP_PROXY environment variables?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/environment_variables.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-15-2",
+      "question": "What do NO_PROXY and HTTPS_PROXY change?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/environment_variables.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-16-0",
+      "question": "How do I enable HTTP/2 support?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/http2.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-16-1",
+      "question": "What optional dependencies are needed for http2=True?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/http2.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-16-2",
+      "question": "How can I check the negotiated HTTP protocol version?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/http2.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-17-0",
+      "question": "How do I enable HTTPX debug logging?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/logging.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-17-1",
+      "question": "I need connection-level diagnostic logs from httpcore.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/logging.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-17-2",
+      "question": "Which Python logging settings show HTTPX debug output?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/logging.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-18-0",
+      "question": "Does HTTPX automatically follow redirects like requests?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/compatibility.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-18-1",
+      "question": "What are the main requests compatibility differences?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/compatibility.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-18-2",
+      "question": "How do I migrate a requests client with redirect behavior?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/compatibility.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-19-0",
+      "question": "How can I upload a file with multipart form data?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/quickstart.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-19-1",
+      "question": "Send multipart files and a custom upload filename.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/quickstart.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-19-2",
+      "question": "How do file uploads use the files parameter?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/quickstart.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-20-0",
+      "question": "How do I send JSON request bodies?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/quickstart.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-20-1",
+      "question": "Submit a dictionary as a JSON body rather than form encoded data.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/quickstart.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-20-2",
+      "question": "What is the json parameter used for when posting data?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/quickstart.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-21-0",
+      "question": "Which exception represents a pool acquisition timeout?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/exceptions.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-21-1",
+      "question": "What exception hierarchy includes PoolTimeout and ConnectTimeout?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/exceptions.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-21-2",
+      "question": "How can I distinguish HTTPStatusError from RequestError?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/exceptions.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-22-0",
+      "question": "How are client-level headers merged with request headers?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/clients.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-22-1",
+      "question": "Combine client defaults with per-request configuration.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/clients.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-22-2",
+      "question": "How does Client.build_request apply shared client settings?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:docs/advanced/clients.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-23-0",
+      "question": "Was the deprecated proxies argument removed in version 0.28?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:CHANGELOG.md",
+      "expected_status": "evidence_found",
+      "split": "development"
+    },
+    {
+      "id": "topic-23-1",
+      "question": "My upgrade to 0.28 fails because the app argument was removed.",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:CHANGELOG.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "topic-23-2",
+      "question": "What changed in SSL configuration deprecations in 0.28.0?",
+      "version": "0.28.1",
+      "expected_document": "0.28.1:CHANGELOG.md",
+      "expected_status": "evidence_found",
+      "split": "test"
+    },
+    {
+      "id": "unsupported-0",
+      "question": "How should I fertilize a mango orchard?",
+      "version": "0.28.1",
+      "expected_document": null,
+      "expected_status": "insufficient_evidence",
+      "split": "development"
+    },
+    {
+      "id": "unsupported-1",
+      "question": "What are the tax deductions for a bakery?",
+      "version": "0.28.1",
+      "expected_document": null,
+      "expected_status": "insufficient_evidence",
+      "split": "development"
+    },
+    {
+      "id": "unsupported-2",
+      "question": "How do I price actuarial catastrophe insurance?",
+      "version": "0.28.1",
+      "expected_document": null,
+      "expected_status": "insufficient_evidence",
+      "split": "test"
+    },
+    {
+      "id": "unsupported-3",
+      "question": "Diagnose a bicycle hydraulic brake leak.",
+      "version": "0.28.1",
+      "expected_document": null,
+      "expected_status": "insufficient_evidence",
+      "split": "test"
+    },
+    {
+      "id": "unsupported-4",
+      "question": "What is the recipe for sourdough bread?",
+      "version": "0.28.1",
+      "expected_document": null,
+      "expected_status": "insufficient_evidence",
+      "split": "test"
+    },
+    {
+      "id": "unsupported-5",
+      "question": "How do I repair a cracked concrete foundation?",
+      "version": "0.28.1",
+      "expected_document": null,
+      "expected_status": "insufficient_evidence",
+      "split": "test"
+    }
+  ]
+}

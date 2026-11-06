@@ -1,0 +1,84 @@
+{
+  "sources": 1365,
+  "operational": {
+    "sampled_issues": 98,
+    "open_in_sample": 53,
+    "closed_in_sample": 45,
+    "median_days_to_close": 2.6768171296296295,
+    "comments_sampled": 36,
+    "database_sources": 1365,
+    "database_issues": 98,
+    "sampling": "Most recently updated API pages; not a representative service workload. Labels may overlap. Closed does not mean resolved. First observed comment may be by the reporter and is not a verified first-response SLA."
+  },
+  "evaluation": {
+    "questions": 78,
+    "retrieval": [
+      {
+        "method": "embedding",
+        "split": "development",
+        "questions": 24,
+        "recall_at_5": 0.9166666666666666,
+        "mrr": 0.8229166666666666,
+        "median_latency_ms": 12.117583493818529,
+        "p95_latency_ms": 12.918408997938968
+      },
+      {
+        "method": "embedding",
+        "split": "test",
+        "questions": 48,
+        "recall_at_5": 1.0,
+        "mrr": 0.7781250000000001,
+        "median_latency_ms": 11.752437494578771,
+        "p95_latency_ms": 13.224089359573554
+      },
+      {
+        "method": "hybrid",
+        "split": "development",
+        "questions": 24,
+        "recall_at_5": 0.9166666666666666,
+        "mrr": 0.7951388888888888,
+        "median_latency_ms": 11.735729000065476,
+        "p95_latency_ms": 12.65989734674804
+      },
+      {
+        "method": "hybrid",
+        "split": "test",
+        "questions": 48,
+        "recall_at_5": 1.0,
+        "mrr": 0.8645833333333334,
+        "median_latency_ms": 11.81258300493937,
+        "p95_latency_ms": 13.179812501766719
+      },
+      {
+        "method": "keyword",
+        "split": "development",
+        "questions": 24,
+        "recall_at_5": 0.9166666666666666,
+        "mrr": 0.6840277777777777,
+        "median_latency_ms": 0.5101670103613287,
+        "p95_latency_ms": 0.6301411995082161
+      },
+      {
+        "method": "keyword",
+        "split": "test",
+        "questions": 48,
+        "recall_at_5": 0.9791666666666666,
+        "mrr": 0.7611111111111111,
+        "median_latency_ms": 0.5043749988544732,
+        "p95_latency_ms": 0.6902579043526201
+      }
+    ],
+    "citation_excerpt_integrity": 1.0,
+    "status_accuracy": 0.9871794871794872,
+    "unsupported_abstention_rate": 1.0,
+    "caveat": "Quoted-source integrity is not semantic citation correctness; benchmark is author-developed and theme-overlapping"
+  },
+  "total_pipeline_seconds": 20.112692958005937,
+  "generation_exercised": true,
+  "default_backend": "extractive quoted evidence",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "local_drafter": "google/flan-t5-small",
+  "external_inference_api_calls": 0,
+  "external_inference_api_charge_usd": 0,
+  "cost_caveat": "Local CPU time, electricity and hosting are unpriced; zero API charge is not zero operating cost"
+}

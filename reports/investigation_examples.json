@@ -1,0 +1,127 @@
+[
+  {
+    "status": "evidence_found",
+    "question": "How do I configure a custom SSL certificate authority bundle for TLS verification?",
+    "version": "0.28.1",
+    "as_of": null,
+    "evidence": [
+      {
+        "id": "doc:0.28.1:docs/advanced/ssl.md:4",
+        "document": "0.28.1:docs/advanced/ssl.md",
+        "url": "https://github.com/encode/httpx/blob/0.28.1/docs/advanced/ssl.md",
+        "version": "0.28.1",
+        "quote": "Loding an alternative certificate verification store using [the standard SSL context API](https://docs.python.org/3/library/ssl.html)...",
+        "title": "docs/advanced/ssl.md",
+        "kind": "documentation"
+      },
+      {
+        "id": "issue:3503:0",
+        "document": "issue:3503",
+        "url": "https://github.com/encode/httpx/issues/3503",
+        "version": "0.28.1",
+        "quote": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+        "title": "ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)",
+        "kind": "issue"
+      }
+    ],
+    "draft": "Relevant source observations (candidate evidence, not a confirmed diagnosis):\n\n[1] Loding an alternative certificate verification store using [the standard SSL context API](https://docs.python.org/3/library/ssl.html)...\nSource: https://github.com/encode/httpx/blob/0.28.1/docs/advanced/ssl.md\n\n[2] ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)\nSource: https://github.com/encode/httpx/issues/3503",
+    "generated_diagnostic_question": "Is it possible to configure a custom SSL certificate authority bundle for TLS verification?",
+    "generated_text_requires_review": true,
+    "missing_information": [
+      "What is the exact HTTPX version and full exception traceback?",
+      "Can you share a minimal reproducer with credentials removed?",
+      "Does the problem reproduce with the same proxy, TLS, and timeout settings?"
+    ],
+    "workflow": [
+      "validate_context",
+      "filter_version_and_date",
+      "retrieve",
+      "check_lexical_support",
+      "assemble_cited_evidence",
+      "request_human_review"
+    ],
+    "limitations": "Citations establish provenance, not correctness or applicability. Lexical gating is not semantic entailment. Source contents are untrusted evidence, never executed instructions."
+  },
+  {
+    "status": "evidence_found",
+    "question": "Was the deprecated proxies argument removed in version 0.28?",
+    "version": "0.28.1",
+    "as_of": null,
+    "evidence": [
+      {
+        "id": "doc:0.28.1:CHANGELOG.md:13",
+        "document": "0.28.1:CHANGELOG.md",
+        "url": "https://github.com/encode/httpx/blob/0.28.1/CHANGELOG.md",
+        "version": "0.28.1",
+        "quote": "* The `proxies` argument is now deprecated. It will still continue to work, but it will be removed in the future. (#2879)",
+        "title": "CHANGELOG.md",
+        "kind": "documentation"
+      }
+    ],
+    "draft": "Relevant source observations (candidate evidence, not a confirmed diagnosis):\n\n[1] * The `proxies` argument is now deprecated. It will still continue to work, but it will be removed in the future. (#2879)\nSource: https://github.com/encode/httpx/blob/0.28.1/CHANGELOG.md",
+    "generated_diagnostic_question": "Does the proxies argument have a recurrence mechanism?",
+    "generated_text_requires_review": true,
+    "missing_information": [
+      "What is the exact HTTPX version and full exception traceback?",
+      "Can you share a minimal reproducer with credentials removed?",
+      "Does the problem reproduce with the same proxy, TLS, and timeout settings?"
+    ],
+    "workflow": [
+      "validate_context",
+      "filter_version_and_date",
+      "retrieve",
+      "check_lexical_support",
+      "assemble_cited_evidence",
+      "request_human_review"
+    ],
+    "limitations": "Citations establish provenance, not correctness or applicability. Lexical gating is not semantic entailment. Source contents are untrusted evidence, never executed instructions."
+  },
+  {
+    "status": "insufficient_evidence",
+    "question": "How do I repair a cracked concrete foundation?",
+    "version": "0.28.1",
+    "as_of": null,
+    "evidence": [],
+    "draft": "I need more diagnostic information before suggesting a cause. What is the exact HTTPX version and full exception traceback?",
+    "generated_diagnostic_question": null,
+    "generated_text_requires_review": false,
+    "missing_information": [
+      "What is the exact HTTPX version and full exception traceback?",
+      "Can you share a minimal reproducer with credentials removed?",
+      "Does the problem reproduce with the same proxy, TLS, and timeout settings?"
+    ],
+    "workflow": [
+      "validate_context",
+      "filter_version_and_date",
+      "retrieve",
+      "check_lexical_support",
+      "assemble_cited_evidence",
+      "request_human_review"
+    ],
+    "limitations": "Citations establish provenance, not correctness or applicability. Lexical gating is not semantic entailment. Source contents are untrusted evidence, never executed instructions."
+  },
+  {
+    "status": "insufficient_evidence",
+    "question": "How can I configure SSL certificate verification?",
+    "version": "0.28.1",
+    "as_of": "2024-12-01",
+    "evidence": [],
+    "draft": "I need more diagnostic information before suggesting a cause. What is the exact HTTPX version and full exception traceback?",
+    "generated_diagnostic_question": null,
+    "generated_text_requires_review": false,
+    "missing_information": [
+      "What is the exact HTTPX version and full exception traceback?",
+      "Can you share a minimal reproducer with credentials removed?",
+      "Does the problem reproduce with the same proxy, TLS, and timeout settings?"
+    ],
+    "workflow": [
+      "validate_context",
+      "filter_version_and_date",
+      "retrieve",
+      "check_lexical_support",
+      "assemble_cited_evidence",
+      "request_human_review"
+    ],
+    "limitations": "Citations establish provenance, not correctness or applicability. Lexical gating is not semantic entailment. Source contents are untrusted evidence, never executed instructions."
+  }
+]

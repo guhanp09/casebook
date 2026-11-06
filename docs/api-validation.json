@@ -1,0 +1,25 @@
+[
+  {
+    "check": "health",
+    "status": 200
+  },
+  {
+    "question": "How do I configure a custom SSL certificate authority bundle for TLS verification?",
+    "status": 200,
+    "result": "evidence_found"
+  },
+  {
+    "question": "How do I repair a cracked concrete foundation?",
+    "status": 200,
+    "result": "insufficient_evidence"
+  },
+  {
+    "question": "Configure SSL certificate verification",
+    "status": 200,
+    "result": "insufficient_evidence"
+  },
+  {
+    "check": "invalid short input rejected",
+    "status": 422
+  }
+]

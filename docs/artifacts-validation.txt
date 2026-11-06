@@ -1,0 +1,5 @@
+{
+  "project": "casebook",
+  "checks_passed": 8,
+  "workbooks": []
+}

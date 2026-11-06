@@ -1,0 +1,25 @@
+label,state,issues
+1.0 proposal,open,1
+api change,open,1
+bug,closed,1
+bug,open,1
+concurrency,closed,2
+concurrency/asyncio,open,1
+docs,closed,1
+docs,open,3
+enhancement,closed,2
+enhancement,open,5
+external,open,2
+http/2,open,4
+perf,closed,1
+perf,open,1
+pooling,closed,1
+question,closed,2
+question,open,1
+refactor,open,1
+requests-compat,open,1
+tls+pki,closed,1
+tls+pki,open,1
+user-experience,closed,1
+user-experience,open,1
+wontfix,open,1

@@ -1,0 +1,60 @@
+{
+  "checks_passed": 8,
+  "checks": [
+    "All numerical metrics are finite",
+    "Generated results match the current analytical source files",
+    "PDF report has a valid document header",
+    "Analysis includes substantive methods and limitations",
+    "All 78 authored benchmark questions evaluated",
+    "All quoted benchmark excerpts trace exactly to source text",
+    "Pre-release historical query abstains",
+    "Unrelated example query abstains"
+  ],
+  "workbooks": [],
+  "artifacts": {
+    "analysis.md": {
+      "bytes": 3035,
+      "sha256": "248caba41617f76f05b4a1c730587fae35d2bbff770904038a7b3da7af5b3bee"
+    },
+    "analysis.pdf": {
+      "bytes": 3764,
+      "sha256": "e9f6cef3fbadd4d77cc7ed5aec3fc0f5c4c9728e91932ae5a4323a8a73413185"
+    },
+    "build_manifest.json": {
+      "bytes": 1035,
+      "sha256": "e5135073fe233dd819669a825b53ab87bf96248f24fc9a858cbd8d83f9ec71eb"
+    },
+    "comment_timing_sample.csv": {
+      "bytes": 303,
+      "sha256": "e692b4244f41581b696d23e09d76024ea214a906ec217c099329a4de92c86495"
+    },
+    "investigation_examples.json": {
+      "bytes": 6311,
+      "sha256": "ce3567ad22a8f7cb5d69a44318effe67b593d30fff691c987e2df6f1da238f70"
+    },
+    "issue_categories.csv": {
+      "bytes": 436,
+      "sha256": "04c63c4224f604365977f6da9ff6f3d72a3f13f0f028b22673c799f3e30e53e9"
+    },
+    "metrics.json": {
+      "bytes": 2831,
+      "sha256": "62b5ebf7829633fdfe5c2f48a01e76e0bf04d510846bb7ea741dfc7cb48a065e"
+    },
+    "retrieval_comparison.html": {
+      "bytes": 4859933,
+      "sha256": "e15a753a9d1b639b8932a16233e5ae946e82149266cf3bfe4c9dd46b54d7387d"
+    },
+    "retrieval_evaluation.csv": {
+      "bytes": 13658,
+      "sha256": "ba029048c729baedd97550adce7dbbf2415ddb041c0a193a108dd254a1a167e2"
+    },
+    "source_manifest.json": {
+      "bytes": 5139,
+      "sha256": "848d129554ac4c0994a62f2129d0bbee8b13369c744fcfc8ec0e395f369447fc"
+    },
+    "workflow_evaluation.csv": {
+      "bytes": 5165,
+      "sha256": "c70b1c944752ef4720122a943c5caa4f6ef8931eb28338857932ffefd16b759a"
+    }
+  }
+}

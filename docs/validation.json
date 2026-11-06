@@ -1,0 +1,63 @@
+{
+  "unit": {
+    "passed": true,
+    "command": "-m pytest -q",
+    "output": "unit-validation.txt",
+    "tests_passed": 7
+  },
+  "lint": {
+    "passed": true,
+    "command": "-m ruff check src tests scripts",
+    "output": "lint-validation.txt"
+  },
+  "artifacts": {
+    "passed": true,
+    "command": "scripts/verify_artifacts.py",
+    "output": "artifacts-validation.txt"
+  },
+  "streamlit": {
+    "passed": true,
+    "method": "Streamlit AppTest: initial render and one scenario interaction; all six completed without application exceptions"
+  },
+  "browser": {
+    "passed": true,
+    "method": "Headless Google Chrome through Playwright, 1440x1100; initial view and screenshot",
+    "artifact": "preview.png",
+    "investigation_interaction": {
+      "passed": true,
+      "artifact": "investigation.png",
+      "method": "Clicked Prepare investigation and verified original-source links appear without application exceptions"
+    }
+  },
+  "dependency_resolution": {
+    "passed": true,
+    "method": "pip install --dry-run --no-build-isolation -e .[dev] -c constraints.txt in the validation environment; this checks metadata consistency, not a clean installation"
+  },
+  "pipeline": {
+    "passed": true,
+    "method": "Full input pipeline run locally; no sampling flags; Casebook includes local generative example"
+  },
+  "container": {
+    "status": "configuration provided; full application image build not executed"
+  },
+  "postgresql": {
+    "passed": true,
+    "method": "PostgreSQL 16-alpine Docker service, two consecutive ingestions; stable unique counts",
+    "counts": {
+      "sources": 1365,
+      "issues": 98,
+      "comments": 36,
+      "issue_labels": 37
+    }
+  },
+  "http_api": {
+    "passed": true,
+    "artifact": "api-validation.json",
+    "method": "Real uvicorn service; supported, unsupported, historical, health and validation-error requests"
+  },
+  "cloud_deployment": {
+    "status": "not deployed"
+  },
+  "recorded_at_utc": "2026-11-06T09:30:50.262578+00:00",
+  "python": "3.12.7"
+}
